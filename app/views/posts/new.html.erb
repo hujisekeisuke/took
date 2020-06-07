@@ -1,0 +1,8 @@
+<h1>新規投稿ページ</h1>
+
+<%= form_tag('/posts', method: :post) do %>
+  <input type="string" placeholder="ニックネーム" name="nickname" class="one">
+  <input type="text" placeholder="出身地" name="content" class="two">
+  <input type="text" placeholder="コメント" name="comment" class="three">
+  <input type="submit" value="投稿する" class="for"> 
+<% end %>
